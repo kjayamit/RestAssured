@@ -9,7 +9,7 @@ import static io.restassured.RestAssured.get;
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.core.IsEqual.equalTo;
 
-public class GetAllUsers {
+public class GetAllUsersTest {
 
     @BeforeTest
     public void setUp(){

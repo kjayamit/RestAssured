@@ -29,7 +29,8 @@ public class CreateUserTest {
         given().header("Content-Type", "application/json").
                 body(request.toJSONString()).when()
                 .post("api/users").then().statusCode(201)
-                .log().all().assertThat().body("name", equalTo("kc"));
+                .log().all()
+                .assertThat().body("name", equalTo("kc"));
     }
 
     @Test
