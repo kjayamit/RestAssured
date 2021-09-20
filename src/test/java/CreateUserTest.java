@@ -13,7 +13,7 @@ import static io.restassured.RestAssured.get;
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.core.IsEqual.equalTo;
 
-public class CreateUser {
+public class CreateUserTest {
 
     @BeforeTest
     public void setUp(){
